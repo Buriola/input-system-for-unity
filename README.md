@@ -1,6 +1,8 @@
 # Input System Template for Unity 2019.4+
 
-A simple template for using the new Input System of Unity
+- A simple template for using the new Input System of Unity.
+- This is useful to save some time when configuring a new project that requires a controller. 
+- It will allow you to focus in developing your mechanics and not mix gameplay code with input code. :star_struck::star_struck:
 
 ### How to use
 
