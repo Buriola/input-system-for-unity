@@ -6,19 +6,21 @@
 
 ### How to use
 
-- This is not a designer friendly template. You must know how to code and use delegates.
+- **This is not a designer friendly template. You must know how to code and use delegates.**
 
-1 - Make sure you imported the new Input System package from the Package Manager
 
-2 - Go to **Edit -> Project Settings -> Other Settings -> Active Input Handling** (Choose new Input System)
 
-3 - Just for safety, make your API Compatibility Level to be .NET 4.x
+1 - Make sure you imported the new Input System package from the Package Manager.
 
-4 - Create a player controller class and a movement function like in the example
+2 - Go to **Edit -> Project Settings -> Other Settings -> Active Input Handling**. (Choose new Input System)
+
+3 - Just for safety, make your API Compatibility Level to be .NET 4.x.
+
+4 - Create a player controller class and a movement function like in the example.
 
 5 - Access the Input Controller instance and subscribe any methods you want to the action wrappers.
 
-6 - Voilá! Play and test your inputs. Make custom changes modifying the InputAsset.
+6 - Voilá! Play and test your inputs. Make custom changes modifying the InputAsset. :wink:
 
 ```cs
 using Buriola.InputSystem;
@@ -70,11 +72,11 @@ You can edit the InputAsset to bind custom keyboard keys to whatever action you 
 
 ### Current Architecture
 
-- InputController.cs
+- **InputController.cs**
   - This is a singleton and it should be accessible to all classes that you want to register input actions
-- InGameInputContext.cs
+- **InGameInputContext.cs**
   - This is a context that binds all inputs related to the InGame action map configured in the InputAsset
-- UIInputContext.cs
+- **UIInputContext.cs**
   - This is a context that binds all inputs related to the UI action map configured in the InputAsset
   
 You can create more action maps as needed.
