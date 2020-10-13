@@ -16,7 +16,7 @@
 
 ```cs
 using Buriola.InputSystem;
-using CallbackContext = UnityEngine.InputSystem.InputActions.CallbackContext;
+using CallbackContext = UnityEngine.InputSystem.InputAction.CallbackContext;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
